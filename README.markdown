@@ -44,7 +44,7 @@ device.
 
 ## logcat on device shows:
 
-<code>
+<pre>
 05-19 08:57:56.920: DEBUG/PackageManager(75): Scanning package com.ridemission.dexfail
 05-19 08:57:56.925: INFO/PackageManager(75): Package com.ridemission.dexfail codePath changed from /data/app/com.ridemission.dexfail-1.apk to /data/app/com.ridemission.dexfail-2.apk; Retaining data and using new
 05-19 08:57:56.925: INFO/PackageManager(75): Unpacking native libraries for /data/app/com.ridemission.dexfail-2.apk
@@ -124,5 +124,5 @@ device.
 05-19 08:58:09.835: INFO/PackageManager(75): Unpacking native libraries for /data/app/com.ridemission.dexfail-1.apk
 05-19 08:58:09.875: INFO/ActivityManager(75): Force stopping package com.ridemission.dexfail uid=10035
 05-19 08:58:09.885: DEBUG/PackageManager(75):   Activities: com.ridemission.dexfail.MainActivity
-</code>
+</pre>
 
